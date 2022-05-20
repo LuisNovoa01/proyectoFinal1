@@ -1,0 +1,23 @@
+$colour1:#0F47AF;
+$colour2:#031432;
+$colour3:#F6C90E;
+$colour4:#EEEEEE;
+
+@mixin titleLetters{
+    color: $colour3;
+}
+
+@mixin styleBoxes {
+    background: transparent;
+    background: linear-gradient(180deg, $colour2 13%, $colour4 100%);
+    color: $colour3;
+    font-weight: bold;
+    margin: 1% 1% 1% 1%;
+    border-radius: 15px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+  footer{
+    background: $colour2;
+  }
